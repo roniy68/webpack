@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.hello {
+    color: red;
+}
