@@ -4,7 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve --open",
+    "watch": "webpack serve --open"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "toml": "^3.0.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1",
     "wepack-cli": "^0.0.1-security",
     "xml-loader": "^1.2.1",
     "yamljs": "^0.3.0"
