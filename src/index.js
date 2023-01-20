@@ -7,6 +7,10 @@ import './style.css';
 // Importing Images
 import Icon from './assets/drsight.png';
 
+//import data
+import Data from './data/data.xml';
+import Notes from './data/data.csv';
+
 function component() {
     const element = document.createElement('div');
     const btn = document.createElement('button');
@@ -23,6 +27,9 @@ function component() {
     document.body.appendChild(myIcon);
 
     element.appendChild(btn);
+
+    console.log(Data);
+    console.log(Notes);
 
     return element;
 }
