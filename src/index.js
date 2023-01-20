@@ -4,6 +4,9 @@ import printMe from './print.js';
 // Importing Style
 import './style.css';
 
+// Importing Images
+import Icon from './assets/drsight.png';
+
 function component() {
     const element = document.createElement('div');
     const btn = document.createElement('button');
@@ -13,6 +16,11 @@ function component() {
     btn.innerHTML = 'Click me and check the console!';
     btn.onclick = printMe;
     
+    // Add icon
+    const myIcon = new Image();
+    myIcon.src = Icon;
+
+    document.body.appendChild(myIcon);
 
     element.appendChild(btn);
 
