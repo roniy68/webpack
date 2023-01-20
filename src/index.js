@@ -21,8 +21,8 @@ function component() {
     btn.onclick = printMe;
     
     // Add icon
-    const myIcon = new Image();
-    myIcon.src = Icon;
+    const myIcon = document.createElem
+
 
     document.body.appendChild(myIcon);
 

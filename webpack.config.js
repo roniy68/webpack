@@ -5,6 +5,7 @@ const yaml = require('yamljs');
 const json5 = require('json5');
 
 module.exports = {
+  mode: 'development',
   entry: {
     index: './src/index.js',
     print: './src/print.js',
